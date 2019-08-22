@@ -1,0 +1,84 @@
+<style>
+.content-table {
+border-collapse: collapse;
+margin: 25px 0;
+font-size: 0.9em;
+min-width: 400px;
+position:absolute;
+bottom:400px;
+}
+.content-table thead tr {
+background-color:black;
+color: blue;
+text-align:left;
+font-weight:bold;
+}
+.content-table th,
+.content-table td {
+padding:12px,15px;
+}
+.h6{
+	font-weight:bold;
+}
+.content-table tbody tr{
+ border-bottom: 1px solid #ffffff;
+}
+.subject-list{
+border-collapse: collapse;
+margin: 25px 0;
+font-size: 0.9em;
+position:absolute;
+left:370px;
+bottom:100px;
+list-style-type: none;
+}
+ul li{
+border:2px solid black;
+margin : 25px;
+}
+ol li{
+margin : 10px;
+list-style-type:none;
+}
+
+.content-table tbody tr:nth-of-type(even){
+background-color:#f3f3f3;
+}
+.content-table tbody tr:last-of-type {
+border-bottom: 2px solid #009879
+}
+.content-table tbody td:nth-of-type(3) {
+color:blue;
+}
+.content-table tbody td:nth-of-type(2) {
+color:blue;
+}
+.content-table tbody td:nth-of-type(1) {
+color:red;
+}
+.vidPos {
+position:absolute;
+bottom:100px;
+}
+.moveCaption{
+position:absolute;
+top:310px;
+color:blue
+}
+ul#menu li {
+  display:inline;
+  position:absolute;
+}
+body {
+	background-color:lightblue;
+	background-image: url('https://media.giphy.com/media/wyH25ZeNnJIyI/giphy.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+</style>
+
